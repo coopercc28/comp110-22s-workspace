@@ -7,7 +7,7 @@ if len(your_word) != 5:
     print("Error: Word must contain 5 characters ")
     exit()
 single_character: str = input("Enter a single character: ")
-if len(single_character) > 1:
+if len(single_character) != 1:
     print("Error: Character must be a single character ")
     exit()
 print("Searching for " + single_character + " in " + your_word)
