@@ -1,6 +1,6 @@
 """EX01 - Chardle - A cute step towards wardle."""
 
-__author__ = 730394353
+__author__ = "730394353"
 
 your_word: str = input("Enter a 5-character word: ")
 if len(your_word) != 5:
@@ -33,7 +33,7 @@ if single_character == your_word[3]:
 if single_character == your_word[4]:
     counter = counter + 1
 if counter < int(1):
-    print("No instance of " + single_character + " found in " + your_word)
+    print("No instances of " + single_character + " found in " + your_word)
 if counter == int(1):
     print("1 instance of " + single_character + " found in " + your_word)
 if counter == int(2):
